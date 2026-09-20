@@ -84,6 +84,23 @@
   font-weight: 500;
 }
 
+.cardsSection {
+  width: 100%;
+  background-color: #fafafa;
+  padding: 3rem 0;
+}
+
+.cardsRow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 2.5rem;
+}
+
 a.primary {
   background: var(--text-primary);
   color: var(--background);
