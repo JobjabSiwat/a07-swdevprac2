@@ -87,10 +87,14 @@ export default function CardPanel() {
         <div
             style={{
                 width: "100%",
+                minHeight: "100vh",
                 display: "flex",
                 flexDirection: "column",
                 alignItems: "center",
-                padding: "40px 24px",
+                paddingTop: "40px",
+                paddingBottom: "80px",
+                paddingLeft: "24px",
+                paddingRight: "24px",
                 backgroundColor: "#f9fafb",
             }}
         >
